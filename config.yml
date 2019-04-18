@@ -1,0 +1,42 @@
+# shoes project base configuration
+
+# 支出
+expenses:
+    # 基本支出
+    base:
+        # 房屋月租（元/月）
+        rent: 4000
+
+        stuff:
+            # 薪水标准
+            salary:
+              wash_worker: 5000
+              elivery_stuff: 5000
+
+            # 人员配备
+            personnel:
+              wash_woker: 2
+              elivery_stuff: 1
+
+        #水费（元/吨）
+        water_fee: 3.77
+
+        #电费（元/度）
+        eletricity_fee: 1.2
+
+    # 沉默成本
+    silence:
+        toothbrush: 0
+
+    # 工作成本
+    work:
+        # 每双电费
+        eletricity_per_shoes: 
+
+        # 每双水费
+        water_per_shoes: 0.12
+
+# 收入
+income:
+    # 每双费用
+    wash_fee: 20
